@@ -1,9 +1,20 @@
-# produtos-apirest
-API REST de produtos com Swagger-ui. Disponível em https://produtos-apirest.herokuapp.com/swagger-ui.html#/produto45resource
+API REST - PRODUTOS
+BANCO DE DADOS PostgreSQL
+ADICIONADO OS VERBOS: GET, POST, DELETE E PUT
+http://localhost:8080/api/produtos
+
+ADICIONADO A DOCUMENTAÇÃO DO SWAGGER 3.0 OPEN API - APÓS BUILD DO PROJETO ACESSAR O LINK:
+
+http://localhost:8080/swagger-ui/index.html
+
+COM ISSO NÃO É NECESSÁRIO INSTALAR UM CLIENTE REST COMO O POSTMAN PARA TESTAR
+
+INSTALAÇÃO
+DEVE APENAS INSTALAR O BANCO POSTGRE COM O MONE: produtos-apirest
+E MUDAR O USUARIO E SENHA CONFORME A INSTALÇÃO DA SUA MÁQUINA NO ARQUIVO application.properties
+E EXECUTAR O CODIGO DO SPRINGBOOT
+
+IRÁ GERAR A TABELA tb_produtos com todos os campos vazios
+PARA INSERIR VALORES NOS CAMPOS SÓ UTILIZAR O POST COM OS COMANDOS JSON
 
 
-Acesso para lista de produtos: https://produtos-apirest.herokuapp.com/api/produtos
-
-Acesso produto unico: https://produtos-apirest.herokuapp.com/api/produto/{id}
-
-Salvar, Atualizar e Deletar produto: https://produtos-apirest.herokuapp.com/api/produto
